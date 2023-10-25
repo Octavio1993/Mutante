@@ -1,0 +1,43 @@
+1er caso de uso:
+Ingrese las secuencias de ADN en la matriz: 
+CATCAT
+GCTCAG
+CGTTAC
+CCTACG
+ACGGGC
+TTATAG
+El ADN ingresado NO corresponde a un mutante
+#por más que tenga una cadena vertical en la columna 3 con la misma letra (T), no corresponde porque necesita más de una cadena
+
+2do caso de uso:
+Ingrese las secuencias de ADN en la matriz: 
+CATCAT
+ACTAAT
+TTTTAC
+GCTCCA
+TTATTA
+GCGCCA
+El ADN ingresado corresponde a un mutante
+#cadena vertical en la columna 3 y horizontal en la fila 3
+
+3er caso de uso:
+Ingrese las secuencias de ADN en la matriz: 
+AAAACG
+TATTAC
+CGTACG
+AATTCG
+TACGGC
+GCATGC
+El ADN ingresado NO corresponde a un mutante
+#por más que tenga una cadena horizontal en la fila 1 con la misma letra (T), no corresponde porque necesita más de una cadena
+
+4to caso de uso:
+Ingrese las secuencias de ADN en la matriz: 
+CATCAT
+ACGCAT
+CCCTAG
+CGTCAT
+TGATGA
+ATTATT
+El ADN ingresado corresponde a un mutante
+#posee una cadena diagonal que comienza en la posicion fila 1, columna 1, y otra cadena vertical en la columna 5
